@@ -35,7 +35,6 @@
         /* Header styles */
         #header {
             padding: 20px 0;
-            height: 100vh;
             color: #FFC23C;
             align-items: center;
             padding: auto;
@@ -43,7 +42,8 @@
 
             h2 {
                 span {
-                    border-bottom: 2px #31087B;
+                    border-bottom: 2px;
+                    border-color: #31087B;
                 }
             }
         }
@@ -75,14 +75,31 @@
         /* About Me section styles */
         .about-me {
             padding: 40px 0;
+            color: #A6D1E6;
         }
 
         .section-title {
-            text-align: center;
+            text-align: left;
+            padding: 3px;
+            border-bottom: 5px ;
+            border-color: #31087B;
         }
 
         .content h3 {
             font-size: 24px;
+        }
+        .list{
+            strong{
+                color: #D7BBF5;
+            }
+            span{
+                color: #FFE79B;
+            }
+        }
+        .line{
+            width: 5px;
+            color: #FFC23C;
+            border-radius: 10px;
         }
 
         /* Add more styles as needed */
@@ -118,7 +135,7 @@
             </div>
         </div>
     </header><!-- End Header -->
-
+<hr class="line">
     <div class="about-me container">
 
         <div class="section-title">
@@ -133,7 +150,7 @@
 
                 <div class="row">
                     <div class="col-lg-6">
-                        <ul>
+                        <ul class="list">
                             <li><i class="bi bi-chevron-right"></i>
                                 <strong>Birthday:</strong>
                                 <span>1 April 2000</span>
@@ -152,7 +169,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6">
-                        <ul>
+                        <ul class="list">
                             <li>
                                 <i class="bi bi-chevron-right"></i>
                                 <strong>Age:</strong>
