@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  font-family: Arial, sans-serif;
+}
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ 
+/* Header styles */
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+ 
+.titile a {
+  color: #fff;
+  text-decoration: none;
+}
+ 
+.logo {
+  display: inline-block;
+}
+ 
+.img-logo {
+  max-width: 100%;
+  height: auto;
+}
+ 
+.about {
+  font-size: 18px;
+  margin-top: 10px;
+}
+ 
+.social-icon {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+/* About Me section styles */
+.about-me {
+  padding: 40px 0;
+}
+ 
+.section-title {
+  text-align: center;
+}
+ 
+.content h3 {
+  font-size: 24px;
+}
+ 
+/* Add more styles as needed */
