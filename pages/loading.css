@@ -13,7 +13,7 @@
     body {
       animation: gradient 15s ease infinite;
       background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-      background-size: 400% 400%;
+      background-size: 3000% 3000%;
       font-family: Arial, sans-serif;
       color: #fff;
       text-align: center;
