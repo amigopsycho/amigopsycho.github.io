@@ -158,7 +158,24 @@
                 z-index:1000;
             }
 
-        
+        /* Bottom navigation bar style */
+nav.navbar {
+    background-color: #1F252E;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar-text a {
+    color: #00E8F8;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar-text a:hover {
+    color: #00E8F8;
+    text-decoration: underline;
+}
+
         
     </style>
 </head>
@@ -192,6 +209,19 @@
             
         </div>
     </section>
+
+<!-- Navigation bar at the bottom -->
+<nav class="navbar fixed-bottom navbar-light bg-light">
+    <div class="container-fluid">
+        <span class="navbar-text">
+            <a href="pages/about.html">About</a> | 
+            <a href="pages/contact.html">Contact</a> | 
+            <a href="pages/blog.html">Blog</a> | 
+            <a href="pages/services.html">Services</a>
+        </span>
+    </div>
+</nav>
+
 </body>
 
 </html>
